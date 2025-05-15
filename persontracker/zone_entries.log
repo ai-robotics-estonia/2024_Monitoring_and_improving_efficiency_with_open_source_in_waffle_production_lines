@@ -1,0 +1,20 @@
+Zone Monitoring Log - Started at 2025-04-09 14:00:07.860981
+--------------------------------------------------
+2025-04-09 14:00:42 - Object person_0 (person) entered 2
+2025-04-09 14:00:48 - Object car_1 (car) entered 1
+2025-04-09 14:00:48 - Object person_0 (person) exited 2
+2025-04-09 14:00:48 - Object person_0 (person) entered 1
+2025-04-09 14:00:50 - Object car_1 (car) exited (timeout) 1
+2025-04-09 14:00:55 - Object car_0 (car) entered 1
+2025-04-09 14:00:55 - Object person_1 (person) entered 1
+2025-04-09 14:00:55 - Object car_1 (car) entered 1
+2025-04-09 14:00:56 - Object person_0 (person) exited 1
+2025-04-09 14:00:56 - Object person_0 (person) entered 4
+2025-04-09 14:00:57 - Object car_0 (car) exited (timeout) 1
+2025-04-09 14:00:57 - Object person_1 (person) exited (timeout) 1
+2025-04-09 14:00:57 - Object car_0 (car) entered 1
+2025-04-09 14:00:59 - Object car_0 (car) exited (timeout) 1
+2025-04-09 14:01:01 - Object car_0 (car) entered 1
+2025-04-09 14:01:03 - Object car_1 (car) exited (timeout) 1
+2025-04-09 14:01:03 - Object car_0 (car) exited (timeout) 1
+2025-04-09 14:01:07 - Object person_0 (person) exited (timeout) 4

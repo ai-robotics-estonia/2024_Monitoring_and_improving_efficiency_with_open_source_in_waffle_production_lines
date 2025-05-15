@@ -1,0 +1,29 @@
+{
+    "name": "opcua-machine-simulator",
+    "version": "1.0.0",
+    "description": "OPC UA Machine Simulator exposing random values",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "dev": "ts-node src/index.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "opcua",
+        "simulator",
+        "machine",
+        "industrial",
+        "automation"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "node-opcua": "^2.96.0"
+    },
+    "devDependencies": {
+        "@types/node": "^18.16.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
+}

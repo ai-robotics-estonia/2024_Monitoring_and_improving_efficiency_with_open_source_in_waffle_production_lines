@@ -1,0 +1,40 @@
+# docker run -d --name neuron --log-opt max-size=100m -p 7000:7000 --privileged=true -v /host/dir:/opt/neuron/persistence --device /dev/ttyUSB0:/dev/ttyS0 --restart=always emqx/neuron:latest
+
+version: "3.8"
+
+services:
+  neuron:
+    image: emqx/neuron:2.5.3-alpine
+    container_name: neuron
+    restart: always
+    privileged: true
+    ports:
+      - "7000:7000"
+    # network_mode: host
+    # network_mode: host
+    volumes:
+      - /host/dir:/opt/neuron/persistence
+    # devices:
+    #   - /dev/ttyUSB0:/dev/ttyS0
+    environment:
+      - TZ=Europe/Tallinn
+      - EMQX_LOG__LEVEL=debug
+      - DISABLE_AUTH=1
+    depends_on:
+      - emqx
+
+  # docker run -d --name emqx -p 18083:18083 -p 1883:1883 emqx:latest
+
+  emqx:
+    image: emqx:latest
+    container_name: emqx
+    restart: always
+    ports:
+      - "18083:18083"
+      - "1883:1883"
+    environment:
+      - TZ=Europe/Tallinn
+      - EMQX_LOG__LEVEL=debug
+      - EMQX_AUTH__ANONYMOUS__ENABLED=true
+      - EMQX_AUTH__ANONYMOUS__USERNAME=emqx_user
+      - EMQX_AUTH__ANONYMOUS__PASSWORD=public_password
