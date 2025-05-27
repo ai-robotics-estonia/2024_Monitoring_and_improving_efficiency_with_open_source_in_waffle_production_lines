@@ -2,11 +2,11 @@
 
 ## Summary
 
-| Company Name                          | [Your Company]           |
+| Company Name                          | [Balsnack International Holding AS]           |
 | :------------------------------------ | :----------------------- |
-| Development Team Lead Name            | [Your Name]              |
-| Development Team Lead E-mail          | [your.email@example.com] |
-| Duration of the Demonstration Project | [month/year-month/year]  |
+| Development Team Lead Name            | [Alar Niidas]              |
+| Development Team Lead E-mail          | [Alar.Niidas@taltech.ee] |
+| Duration of the Demonstration Project | [09/2024-04/2025]  |
 | Final Report                          | [Link to final report]   |
 
 # Description
