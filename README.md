@@ -1,19 +1,18 @@
-# AI-Enhanced Production Monitoring and Safety System
+# Testing of AI-Enhanced Production Monitoring and Safety System
 
 ## Summary
 
-| Company Name                          | [Balsnack International Holding AS]           |
+| Company Name                          | Balsnack International Holding AS           |
 | :------------------------------------ | :----------------------- |
-| Development Team Lead Name            | [Alar Niidas]              |
-| Development Team Lead E-mail          | [Alar.Niidas@taltech.ee] |
-| Duration of the Demonstration Project | [09/2024-04/2025]  |
-| Final Report                          | [Link to final report]   |
+| Development Team Lead Name            | Alar Niidas              |
+| Development Team Lead E-mail          | Alar.Niidas@taltech.ee |
+| Duration of the Demonstration Project | 09/2024-04/2025  |
 
 # Description
 
 ## Objectives of the Demonstration Project
 
-This project aims to implement an integrated production monitoring and safety system leveraging AI technologies to improve manufacturing efficiency and workplace safety. Key objectives include:
+This project aims to test and validate an integrated production monitoring and safety system leveraging AI technologies to improve manufacturing efficiency and workplace safety. Key objectives include:
 
 1. Aggregate machine data from production equipment into a centralized MQTT broker
 2. Implement real-time monitoring of safety zones using AI-powered computer vision
